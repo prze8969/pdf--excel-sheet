@@ -1,3 +1,6 @@
+Excel pdf convertor
+-------------------------------------------------------------------------------------
+
 This is just a basic PDF to Excel convertor using python
 
 I have used python to convert the undetectable PDF tables to actually detectable excel
@@ -5,7 +8,10 @@ I have used python to convert the undetectable PDF tables to actually detectable
 Mostly, i needed this software to actually rank the data and actually do analysis on how the data was
 
 Hence this project
+
+Extracter.py:
 -------------------------------------------------------------------------------------
+
 To use it we can just run the extracter.py
 
 We used two packages:
@@ -19,8 +25,9 @@ Take the pdf -> Open it using pdfplumber in python
 make an object : writer using csv.writer
 
 And then added x0,y0 and x1,y1 coords, to limit from which pixel to which pixel i have to take informatation from
--------------------------------------------------------------------------------------
 
+Ranker.py:
+------------------------------------------------------------------------------------
 There is also a ranker.py
 It uses pandas and openpyxl
 
